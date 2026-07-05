@@ -1,0 +1,4 @@
+# Seeded by OpenKnowledge when this project was created. Edit freely.
+.DS_Store
+__pycache__/
+*.pyc

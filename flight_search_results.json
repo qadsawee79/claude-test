@@ -1,0 +1,99 @@
+{
+  "search": {
+    "origin": "JFK",
+    "destination": "LAX",
+    "date": "2024-08-15",
+    "timestamp": "2026-06-26T02:48:30.559622",
+    "method": "stealth-browser-mcp",
+    "anti_detection_enabled": true
+  },
+  "flights": [
+    {
+      "id": 0,
+      "price": "$245",
+      "departure": "08:30",
+      "arrival": "16:45",
+      "duration": "5h 15m",
+      "stops": "Non-stop",
+      "airline": "American Airlines",
+      "nonstop": true
+    },
+    {
+      "id": 1,
+      "price": "$312",
+      "departure": "14:20",
+      "arrival": "23:05",
+      "duration": "5h 45m",
+      "stops": "Non-stop",
+      "airline": "United",
+      "nonstop": true
+    },
+    {
+      "id": 2,
+      "price": "$198",
+      "departure": "11:00",
+      "arrival": "21:30",
+      "duration": "7h 30m",
+      "stops": "1 stop",
+      "airline": "Southwest",
+      "nonstop": false
+    },
+    {
+      "id": 3,
+      "price": "$267",
+      "departure": "09:15",
+      "arrival": "17:45",
+      "duration": "5h 30m",
+      "stops": "Non-stop",
+      "airline": "Delta",
+      "nonstop": true
+    },
+    {
+      "id": 4,
+      "price": "$289",
+      "departure": "16:45",
+      "arrival": "01:15",
+      "duration": "6h 30m",
+      "stops": "Non-stop",
+      "airline": "JetBlue",
+      "nonstop": true
+    },
+    {
+      "id": 5,
+      "price": "$215",
+      "departure": "13:30",
+      "arrival": "23:50",
+      "duration": "8h 20m",
+      "stops": "1 stop",
+      "airline": "American Airlines",
+      "nonstop": false
+    },
+    {
+      "id": 6,
+      "price": "$325",
+      "departure": "06:00",
+      "arrival": "14:30",
+      "duration": "5h 30m",
+      "stops": "Non-stop",
+      "airline": "Alaska Airlines",
+      "nonstop": true
+    },
+    {
+      "id": 7,
+      "price": "$229",
+      "departure": "18:00",
+      "arrival": "02:45",
+      "duration": "7h 45m",
+      "stops": "1 stop",
+      "airline": "United",
+      "nonstop": false
+    }
+  ],
+  "statistics": {
+    "total_flights": 8,
+    "cheapest": 198,
+    "most_expensive": 325,
+    "average": 260.0,
+    "nonstop_count": 5
+  }
+}
