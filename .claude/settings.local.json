@@ -159,7 +159,19 @@
       "Bash(node \"/c/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/6481b687-e205-4bf4-b470-a75d0963f876/scratchpad/patch_claude_json.js\")",
       "Bash(where ok *)",
       "Bash(\"/c/Users/salra/AppData/Roaming/npm/open-knowledge\" start *)",
-      "Bash(\"/c/Users/salra/AppData/Roaming/npm/open-knowledge\" config *)"
+      "Bash(\"/c/Users/salra/AppData/Roaming/npm/open-knowledge\" config *)",
+      "Bash(\"/c/Users/salra/AppData/Roaming/npm/open-knowledge\" stop *)",
+      "Bash(\"/c/Users/salra/AppData/Roaming/npm/open-knowledge\" seed *)",
+      "Bash(\"/c/Users/salra/AppData/Roaming/npm/open-knowledge\" repair-skills *)",
+      "Bash(\"/c/Users/salra/AppData/Roaming/npm/open-knowledge\" skills *)",
+      "Bash(mkdir -p .ok/skills/open-knowledge-pack-knowledge-base)",
+      "Bash(cp \"/c/Users/salra/AppData/Roaming/npm/node_modules/@inkeep/open-knowledge/dist/assets/skills/packs/knowledge-base/SKILL.md\" .ok/skills/open-knowledge-pack-knowledge-base/SKILL.md)",
+      "Bash(node \"/c/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/6481b687-e205-4bf4-b470-a75d0963f876/scratchpad/create_pack_symlinks.js\")",
+      "Bash(xargs -I{} sh -c 'echo \"=== {} ===\"; head -c 500 \"{}\"')",
+      "Bash(\"/c/Users/salra/AppData/Roaming/npm/open-knowledge\" migrate *)",
+      "Bash(git -C \"/c/Users/salra/Documents/Obsidian Vault\" status)",
+      "Bash(node /c/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/6481b687-e205-4bf4-b470-a75d0963f876/scratchpad/fix_ok_shpaths.js 'json::/c/Users/salra/Documents/Obsidian Vault/.mcp.json' 'json::/c/Users/salra/Documents/Obsidian Vault/.cursor/mcp.json' 'toml::/c/Users/salra/Documents/Obsidian Vault/.codex/config.toml' 'opencode::/c/Users/salra/Documents/Obsidian Vault/opencode.json' claudejson::/c/Users/salra/.claude.json json::/c/Users/salra/AppData/Roaming/Claude/claude_desktop_config.json json::/c/Users/salra/.cursor/mcp.json toml::/c/Users/salra/.codex/config.toml)",
+      "Bash(node C:/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/6481b687-e205-4bf4-b470-a75d0963f876/scratchpad/fix_ok_shpaths.js 'json::C:/Users/salra/Documents/Obsidian Vault/.mcp.json' 'json::C:/Users/salra/Documents/Obsidian Vault/.cursor/mcp.json' 'toml::C:/Users/salra/Documents/Obsidian Vault/.codex/config.toml' 'opencode::C:/Users/salra/Documents/Obsidian Vault/opencode.json' claudejson::C:/Users/salra/.claude.json json::C:/Users/salra/AppData/Roaming/Claude/claude_desktop_config.json json::C:/Users/salra/.cursor/mcp.json toml::C:/Users/salra/.codex/config.toml)"
     ]
   }
 }
