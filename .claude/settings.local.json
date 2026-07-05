@@ -157,7 +157,9 @@
       "Bash(\"C:/Program Files/Git/usr/bin/sh.exe\" -c \"echo it works\")",
       "Bash(wc -c ~/.claude.json)",
       "Bash(node \"/c/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/6481b687-e205-4bf4-b470-a75d0963f876/scratchpad/patch_claude_json.js\")",
-      "Bash(where ok *)"
+      "Bash(where ok *)",
+      "Bash(\"/c/Users/salra/AppData/Roaming/npm/open-knowledge\" start *)",
+      "Bash(\"/c/Users/salra/AppData/Roaming/npm/open-knowledge\" config *)"
     ]
   }
 }
