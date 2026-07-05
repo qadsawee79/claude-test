@@ -148,7 +148,8 @@
       "Bash(cat \"/c/Users/salra/AppData/Roaming/npm/node_modules/@inkeep/open-knowledge/package.json\" | grep -A 10 '\"bin\"')",
       "Bash(ls \"/c/Users/salra/AppData/Roaming/npm\" | grep -i open-knowledge; ls \"/c/Users/salra/AppData/Roaming/npm\" | grep -i \"^ok\")",
       "Bash(\"/c/Users/salra/AppData/Roaming/npm/open-knowledge\" --help)",
-      "Bash(\"/c/Users/salra/AppData/Roaming/npm/open-knowledge\" init *)"
+      "Bash(\"/c/Users/salra/AppData/Roaming/npm/open-knowledge\" init *)",
+      "Bash(\"/c/Users/salra/AppData/Roaming/npm/open-knowledge\" status *)"
     ]
   }
 }
