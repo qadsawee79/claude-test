@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "open-knowledge": {
-      "command": "/bin/sh",
+      "command": "C:\\Program Files\\Git\\usr\\bin\\sh.exe",
       "args": [
         "-l",
         "-c",
