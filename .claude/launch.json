@@ -3,7 +3,7 @@
   "configurations": [
     {
       "name": "open-knowledge-ui",
-      "runtimeExecutable": "/bin/sh",
+      "runtimeExecutable": "C:\\Program Files\\Git\\usr\\bin\\sh.exe",
       "runtimeArgs": [
         "-l",
         "-c",
