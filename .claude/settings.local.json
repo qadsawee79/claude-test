@@ -171,7 +171,18 @@
       "Bash(\"/c/Users/salra/AppData/Roaming/npm/open-knowledge\" migrate *)",
       "Bash(git -C \"/c/Users/salra/Documents/Obsidian Vault\" status)",
       "Bash(node /c/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/6481b687-e205-4bf4-b470-a75d0963f876/scratchpad/fix_ok_shpaths.js 'json::/c/Users/salra/Documents/Obsidian Vault/.mcp.json' 'json::/c/Users/salra/Documents/Obsidian Vault/.cursor/mcp.json' 'toml::/c/Users/salra/Documents/Obsidian Vault/.codex/config.toml' 'opencode::/c/Users/salra/Documents/Obsidian Vault/opencode.json' claudejson::/c/Users/salra/.claude.json json::/c/Users/salra/AppData/Roaming/Claude/claude_desktop_config.json json::/c/Users/salra/.cursor/mcp.json toml::/c/Users/salra/.codex/config.toml)",
-      "Bash(node C:/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/6481b687-e205-4bf4-b470-a75d0963f876/scratchpad/fix_ok_shpaths.js 'json::C:/Users/salra/Documents/Obsidian Vault/.mcp.json' 'json::C:/Users/salra/Documents/Obsidian Vault/.cursor/mcp.json' 'toml::C:/Users/salra/Documents/Obsidian Vault/.codex/config.toml' 'opencode::C:/Users/salra/Documents/Obsidian Vault/opencode.json' claudejson::C:/Users/salra/.claude.json json::C:/Users/salra/AppData/Roaming/Claude/claude_desktop_config.json json::C:/Users/salra/.cursor/mcp.json toml::C:/Users/salra/.codex/config.toml)"
+      "Bash(node C:/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/6481b687-e205-4bf4-b470-a75d0963f876/scratchpad/fix_ok_shpaths.js 'json::C:/Users/salra/Documents/Obsidian Vault/.mcp.json' 'json::C:/Users/salra/Documents/Obsidian Vault/.cursor/mcp.json' 'toml::C:/Users/salra/Documents/Obsidian Vault/.codex/config.toml' 'opencode::C:/Users/salra/Documents/Obsidian Vault/opencode.json' claudejson::C:/Users/salra/.claude.json json::C:/Users/salra/AppData/Roaming/Claude/claude_desktop_config.json json::C:/Users/salra/.cursor/mcp.json toml::C:/Users/salra/.codex/config.toml)",
+      "mcp__open-knowledge__workflow",
+      "mcp__open-knowledge__exec",
+      "mcp__open-knowledge__edit",
+      "mcp__open-knowledge__links",
+      "Bash(node \"C:\\\\Users\\\\salra\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-salra-Documents-Claude-Code\\\\6481b687-e205-4bf4-b470-a75d0963f876\\\\scratchpad\\\\parse_links.js\")",
+      "Bash(node \"C:\\\\Users\\\\salra\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-salra-Documents-Claude-Code\\\\6481b687-e205-4bf4-b470-a75d0963f876\\\\scratchpad\\\\parse_forward.js\")",
+      "Bash(node C:/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/6481b687-e205-4bf4-b470-a75d0963f876/scratchpad/convert_wikilinks.js C:/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/6481b687-e205-4bf4-b470-a75d0963f876/scratchpad/clipping_filenames.txt C:/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/6481b687-e205-4bf4-b470-a75d0963f876/scratchpad/Index.md.orig)",
+      "Bash(awk 'BEGIN{c=0} /^---$/{c++; if\\(c==2\\){print; next}} c<2{next} {print}' C:/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/6481b687-e205-4bf4-b470-a75d0963f876/scratchpad/Index.md.orig.converted)",
+      "mcp__open-knowledge__write",
+      "Bash(node \"C:\\\\Users\\\\salra\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-salra-Documents-Claude-Code\\\\6481b687-e205-4bf4-b470-a75d0963f876\\\\scratchpad\\\\parse_dead2.js\")",
+      "Bash(echo \"diff exit: $?\")"
     ]
   }
 }
