@@ -235,7 +235,21 @@
       "Bash(sed '1,3s/^name: notebooklm$/name: notebooklm-py/' /tmp/nlm_skill_content.md)",
       "Bash(cp ~/.claude/skills/notebooklm-py/SKILL.md ~/.agents/skills/notebooklm-py/SKILL.md)",
       "Bash(gh api repos/pbakaus/impeccable/contents/cli/bin/commands/skills.mjs --jq '.content' | base64 -d > /tmp/skills.mjs 2>&1 *)",
-      "Bash(npx --yes impeccable install --providers=claude --scope=global --no-hooks --yes)"
+      "Bash(npx --yes impeccable install --providers=claude --scope=global --no-hooks --yes)",
+      "Bash(ok status *)",
+      "Bash(\"/c/Users/salra/AppData/Roaming/npm/ok.cmd\" status *)",
+      "Bash(\"/c/Users/salra/AppData/Roaming/npm/ok.cmd\" ps *)",
+      "Bash(\"/c/Users/salra/AppData/Roaming/npm/ok.cmd\" config *)",
+      "Bash(\"/c/Users/salra/AppData/Roaming/npm/ok.cmd\" --help)",
+      "Bash(\"/c/Users/salra/AppData/Roaming/npm/ok.cmd\" start *)",
+      "PowerShell(schtasks /create /tn \"OpenKnowledge - Obsidian Vault\" /tr \"wscript.exe \\\\\"C:\\\\Users\\\\salra\\\\AppData\\\\Local\\\\OpenKnowledge\\\\autostart-vault.vbs\\\\\"\" /sc onlogon /rl limited /f)",
+      "PowerShell(schtasks /create /tn \"OpenKnowledge - Obsidian Vault\" /tr 'wscript.exe \"C:\\\\Users\\\\salra\\\\AppData\\\\Local\\\\OpenKnowledge\\\\autostart-vault.vbs\"' /sc onlogon /rl limited /f)",
+      "PowerShell($startup = \"$env:APPDATA\\\\Microsoft\\\\Windows\\\\Start Menu\\\\Programs\\\\Startup\"; Test-Path $startup)",
+      "mcp__open-knowledge__search",
+      "mcp__open-knowledge__history",
+      "Bash(\"/c/Users/salra/AppData/Roaming/npm/ok.cmd\" diagnose *)",
+      "Bash(\"/c/Users/salra/AppData/Roaming/npm/ok.cmd\" preview *)",
+      "mcp__open-knowledge__delete"
     ]
   }
 }
