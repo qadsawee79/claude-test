@@ -212,7 +212,22 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://127.0.0.1:8123/read/dracula_data/0)",
       "Bash(powershell -Command 'Get-Process -Name python -ErrorAction SilentlyContinue | Where-Object {\\($_.CommandLine -like '\\\\''*server.py*'\\\\''\\)} | Select-Object Id,CommandLine')",
       "Bash(taskkill //F //PID 64876)",
-      "Bash(gh pr create --repo karpathy/reader3 --base master --head qadsawee79:fix/redirect-route-missing-request --title 'Fix 500 on /read/{book_id} redirect; add optional PowerShell wrapper' --body ' *)"
+      "Bash(gh pr create --repo karpathy/reader3 --base master --head qadsawee79:fix/redirect-route-missing-request --title 'Fix 500 on /read/{book_id} redirect; add optional PowerShell wrapper' --body ' *)",
+      "Bash(printf 'OPENROUTER_API_KEY=*' > \"/c/Users/salra/Documents/llm-council/.env\" *)",
+      "Bash(curl -s http://localhost:8001/)",
+      "Bash(curl -s -X POST http://localhost:8001/api/conversations -H \"Content-Type: application/json\" -d '{}')",
+      "Bash(curl -s -X POST http://localhost:8001/api/conversations/6da004be-0e30-47ba-8623-18d7fb42f349/message -H 'Content-Type: application/json' -d '{\"content\":\"In one sentence, what is the capital of France?\"}')",
+      "Bash(curl -s https://openrouter.ai/api/v1/models)",
+      "Bash(python -c ' *)",
+      "Bash(taskkill //F //PID 51860)",
+      "Bash(taskkill //F //PID 78292)",
+      "Bash(taskkill //F //PID 86136)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/)",
+      "Bash(powershell -Command \"Get-Process node -ErrorAction SilentlyContinue\")",
+      "Bash(npm run *)",
+      "Bash(taskkill //F //PID 44712)",
+      "Bash(where npm *)",
+      "Bash(gh pr create --repo karpathy/llm-council --base master --head qadsawee79:fix/dead-model-slugs --title 'Fix dead OpenRouter model slugs; add optional Windows run script' --body ' *)"
     ]
   }
 }
