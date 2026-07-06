@@ -227,7 +227,13 @@
       "Bash(npm run *)",
       "Bash(taskkill //F //PID 44712)",
       "Bash(where npm *)",
-      "Bash(gh pr create --repo karpathy/llm-council --base master --head qadsawee79:fix/dead-model-slugs --title 'Fix dead OpenRouter model slugs; add optional Windows run script' --body ' *)"
+      "Bash(gh pr create --repo karpathy/llm-council --base master --head qadsawee79:fix/dead-model-slugs --title 'Fix dead OpenRouter model slugs; add optional Windows run script' --body ' *)",
+      "Bash(notebooklm skill *)",
+      "Bash(notebooklm agent *)",
+      "Bash(notebooklm agent show claude 2>&1 | wc -l *)",
+      "Bash(mkdir -p ~/.claude/skills/notebooklm-py ~/.agents/skills/notebooklm-py)",
+      "Bash(sed '1,3s/^name: notebooklm$/name: notebooklm-py/' /tmp/nlm_skill_content.md)",
+      "Bash(cp ~/.claude/skills/notebooklm-py/SKILL.md ~/.agents/skills/notebooklm-py/SKILL.md)"
     ]
   }
 }
