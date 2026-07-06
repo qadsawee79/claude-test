@@ -233,7 +233,9 @@
       "Bash(notebooklm agent show claude 2>&1 | wc -l *)",
       "Bash(mkdir -p ~/.claude/skills/notebooklm-py ~/.agents/skills/notebooklm-py)",
       "Bash(sed '1,3s/^name: notebooklm$/name: notebooklm-py/' /tmp/nlm_skill_content.md)",
-      "Bash(cp ~/.claude/skills/notebooklm-py/SKILL.md ~/.agents/skills/notebooklm-py/SKILL.md)"
+      "Bash(cp ~/.claude/skills/notebooklm-py/SKILL.md ~/.agents/skills/notebooklm-py/SKILL.md)",
+      "Bash(gh api repos/pbakaus/impeccable/contents/cli/bin/commands/skills.mjs --jq '.content' | base64 -d > /tmp/skills.mjs 2>&1 *)",
+      "Bash(npx --yes impeccable install --providers=claude --scope=global --no-hooks --yes)"
     ]
   }
 }
