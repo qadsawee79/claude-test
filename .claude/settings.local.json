@@ -197,7 +197,11 @@
       "Bash(SCRATCH=\"/c/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/acc7e61d-4d18-4be1-87c6-905260b57b3a/scratchpad\" *)",
       "Read(//c/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/acc7e61d-4d18-4be1-87c6-905260b57b3a/scratchpad/mp-skills/.claude-plugin/**)",
       "Read(//c/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/acc7e61d-4d18-4be1-87c6-905260b57b3a/scratchpad/mp-skills/**)",
-      "Bash(grep -E \"^\\(ask-matt|code-review|codebase-design|diagnosing-bugs|domain-modeling|grill-with-docs$|implement|improve-codebase-architecture|prototype|research|resolving-merge-conflicts|setup-matt-pocock-skills|tdd|to-issues|to-prd|triage\\)$\")"
+      "Bash(grep -E \"^\\(ask-matt|code-review|codebase-design|diagnosing-bugs|domain-modeling|grill-with-docs$|implement|improve-codebase-architecture|prototype|research|resolving-merge-conflicts|setup-matt-pocock-skills|tdd|to-issues|to-prd|triage\\)$\")",
+      "Bash(curl -s https://api.github.com/gists/442a6bf555914893e9891c11519de94f)",
+      "WebFetch(domain:gist.github.com)",
+      "Bash(curl -sL https://gist.githubusercontent.com/karpathy/442a6bf555914893e9891c11519de94f/raw/)",
+      "Bash(mkdir -p ~/.claude/skills/llm-wiki)"
     ]
   }
 }
