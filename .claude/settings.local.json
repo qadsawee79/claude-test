@@ -201,7 +201,11 @@
       "Bash(curl -s https://api.github.com/gists/442a6bf555914893e9891c11519de94f)",
       "WebFetch(domain:gist.github.com)",
       "Bash(curl -sL https://gist.githubusercontent.com/karpathy/442a6bf555914893e9891c11519de94f/raw/)",
-      "Bash(mkdir -p ~/.claude/skills/llm-wiki)"
+      "Bash(mkdir -p ~/.claude/skills/llm-wiki)",
+      "Bash(nvidia-smi)",
+      "Bash(ls \"/c/Users/salra/Documents/\" 2>&1 | grep -i autoresearch)",
+      "Bash(uv sync *)",
+      "Bash(uv run *)"
     ]
   }
 }
