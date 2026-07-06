@@ -190,7 +190,10 @@
       "Bash(cp -r /c/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/acc7e61d-4d18-4be1-87c6-905260b57b3a/scratchpad/grill-me-codex/skills/grill-with-docs-codex ~/.claude/skills/)",
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
-      "Bash(mkdir -p ~/.claude/skills/grill-me ~/.claude/skills/grilling *)"
+      "Bash(mkdir -p ~/.claude/skills/grill-me ~/.claude/skills/grilling *)",
+      "Bash(cp -r /c/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/acc7e61d-4d18-4be1-87c6-905260b57b3a/scratchpad/mp-skills/skills/productivity/handoff ~/.claude/skills/)",
+      "Bash(cp -r /c/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/acc7e61d-4d18-4be1-87c6-905260b57b3a/scratchpad/mp-skills/skills/productivity/teach ~/.claude/skills/)",
+      "Bash(cp -r /c/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/acc7e61d-4d18-4be1-87c6-905260b57b3a/scratchpad/mp-skills/skills/productivity/writing-great-skills ~/.claude/skills/)"
     ]
   }
 }
