@@ -249,7 +249,9 @@
       "mcp__open-knowledge__history",
       "Bash(\"/c/Users/salra/AppData/Roaming/npm/ok.cmd\" diagnose *)",
       "Bash(\"/c/Users/salra/AppData/Roaming/npm/ok.cmd\" preview *)",
-      "mcp__open-knowledge__delete"
+      "mcp__open-knowledge__delete",
+      "mcp__open-knowledge__config",
+      "mcp__open-knowledge__preview_url"
     ]
   }
 }
