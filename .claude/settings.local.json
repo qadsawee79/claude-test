@@ -282,7 +282,11 @@
       "Bash(git -C \"/c/Users/salra/Documents/Obsidian Vault\" status --short -- .mcp.json .cursor/mcp.json .codex/config.toml opencode.json)",
       "Bash(grep -v \"\\\\.log$\")",
       "Bash(git commit *)",
-      "Bash(git commit --amend -m ' *)"
+      "Bash(git commit --amend -m ' *)",
+      "Bash(disown)",
+      "Bash(taskkill //F //FI \"WINDOWTITLE eq *ok*\")",
+      "Bash(pkill -f \"open-knowledge.*mcp\")",
+      "Bash(git -C \"/c/Users/salra/Documents/Obsidian Vault\" checkout -- .codex/config.toml .cursor/mcp.json .mcp.json opencode.json)"
     ]
   }
 }
