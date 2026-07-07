@@ -286,7 +286,10 @@
       "Bash(disown)",
       "Bash(taskkill //F //FI \"WINDOWTITLE eq *ok*\")",
       "Bash(pkill -f \"open-knowledge.*mcp\")",
-      "Bash(git -C \"/c/Users/salra/Documents/Obsidian Vault\" checkout -- .codex/config.toml .cursor/mcp.json .mcp.json opencode.json)"
+      "Bash(git -C \"/c/Users/salra/Documents/Obsidian Vault\" checkout -- .codex/config.toml .cursor/mcp.json .mcp.json opencode.json)",
+      "Bash(git -C \"/c/Users/salra/Documents/Obsidian Vault\" remote -v)",
+      "Bash(PATH='C:\\\\Users\\\\salra/.bun/bin:__TRACKED_VAR__' /c/Users/salra/AppData/Roaming/npm/ok.cmd diagnose health)",
+      "Bash(PATH='C:\\\\Users\\\\salra/.bun/bin:__TRACKED_VAR__' /c/Users/salra/AppData/Roaming/npm/ok.cmd preview)"
     ]
   }
 }
