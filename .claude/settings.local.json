@@ -275,7 +275,10 @@
       "PowerShell(Receive-Job -Keep 2>&1)",
       "Bash(cat \"/c/Users/salra/AppData/Roaming/npm/ok.cmd\" | head -20)",
       "Bash(rm \"C:/Users/salra/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/OpenKnowledge-ObsidianVault.vbs\" && echo \"removed\")",
-      "Bash(ls -la \"/c/Users/salra/.claude/projects/C--Users-salra-Documents-Claude-Code/memory/\" 2>&1)"
+      "Bash(ls -la \"/c/Users/salra/.claude/projects/C--Users-salra-Documents-Claude-Code/memory/\" 2>&1)",
+      "Bash(grep -n \"open-knowledge\" -A 3 \"/c/Users/salra/.claude.json\" 2>/dev/null | head -30; echo \"---\"; ls -la \"/c/Users/salra/.claude.json\" 2>&1)",
+      "PowerShell(schtasks /query /fo csv | ConvertFrom-Csv | Where-Object { $_.TaskName -match 'OpenKnowledge|ok-|Bun|Vault' })",
+      "Bash(git -C \"/c/Users/salra/Documents/Claude Code\" status)"
     ]
   }
 }
