@@ -251,7 +251,21 @@
       "Bash(\"/c/Users/salra/AppData/Roaming/npm/ok.cmd\" preview *)",
       "mcp__open-knowledge__delete",
       "mcp__open-knowledge__config",
-      "mcp__open-knowledge__preview_url"
+      "mcp__open-knowledge__preview_url",
+      "Bash(\"/c/Users/salra/AppData/Roaming/npm/ok.cmd\" --version)",
+      "Bash(where bun *)",
+      "PowerShell(irm bun.sh/install.ps1 | iex)",
+      "Bash(\"/c/Users/salra/.bun/bin/bun.exe\" --version)",
+      "PowerShell($env:PATH = \"$env:USERPROFILE\\\\.bun\\\\bin;\" + $env:PATH; ok diagnose health)",
+      "PowerShell($env:PATH = \"$env:USERPROFILE\\\\.bun\\\\bin;\" + $env:PATH; & \"$env:APPDATA\\\\npm\\\\ok.cmd\" diagnose health)",
+      "PowerShell($env:PATH = \"$env:USERPROFILE\\\\.bun\\\\bin;\" + $env:PATH; & \"$env:APPDATA\\\\npm\\\\ok.cmd\" start)",
+      "Bash(sleep 3; cat \"/c/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/7cf24a05-d722-4f95-bbf2-ffada6a39daa/tasks/bpdfw4j3j.output\" 2>&1 | tail -30)",
+      "PowerShell($env:PATH = \"$env:USERPROFILE\\\\.bun\\\\bin;\" + $env:PATH; & \"$env:APPDATA\\\\npm\\\\ok.cmd\" status)",
+      "PowerShell([Environment]::GetEnvironmentVariable\\(\"PATH\", \"User\"\\))",
+      "PowerShell([Environment]::GetEnvironmentVariable\\(\"BUN_INSTALL\", \"User\"\\))",
+      "Bash('C:\\\\Program Files\\\\Git\\\\usr\\\\bin\\\\sh.exe' -l -c ' *)",
+      "Bash(timeout 15 \"C:\\\\Program Files\\\\Git\\\\usr\\\\bin\\\\sh.exe\" -l -c 'npx -y @inkeep/open-knowledge@latest mcp')",
+      "Bash(git checkout *)"
     ]
   }
 }
