@@ -289,7 +289,24 @@
       "Bash(git -C \"/c/Users/salra/Documents/Obsidian Vault\" checkout -- .codex/config.toml .cursor/mcp.json .mcp.json opencode.json)",
       "Bash(git -C \"/c/Users/salra/Documents/Obsidian Vault\" remote -v)",
       "Bash(PATH='C:\\\\Users\\\\salra/.bun/bin:__TRACKED_VAR__' /c/Users/salra/AppData/Roaming/npm/ok.cmd diagnose health)",
-      "Bash(PATH='C:\\\\Users\\\\salra/.bun/bin:__TRACKED_VAR__' /c/Users/salra/AppData/Roaming/npm/ok.cmd preview)"
+      "Bash(PATH='C:\\\\Users\\\\salra/.bun/bin:__TRACKED_VAR__' /c/Users/salra/AppData/Roaming/npm/ok.cmd preview)",
+      "Bash(PATH='C:\\\\Users\\\\salra/.bun/bin:__TRACKED_VAR__' /c/Users/salra/AppData/Roaming/npm/ok.cmd status)",
+      "Bash(PATH='C:\\\\Users\\\\salra/.bun/bin:__TRACKED_VAR__' /c/Users/salra/AppData/Roaming/npm/ok.cmd clean)",
+      "Bash(PATH='C:\\\\Users\\\\salra/.bun/bin:__TRACKED_VAR__' /c/Users/salra/AppData/Roaming/npm/ok.cmd start --ui-port 45900)",
+      "Bash(PATH='C:\\\\Users\\\\salra/.bun/bin:__TRACKED_VAR__' /c/Users/salra/AppData/Roaming/npm/ok.cmd --cwd '/c/Users/salra/Documents/Obsidian Vault' status)",
+      "Bash(timeout 8 \"/c/Users/salra/AppData/Roaming/npm/ok.cmd\" mcp)",
+      "Bash(PATH='C:\\\\Users\\\\salra/.bun/bin:__TRACKED_VAR__' /c/Users/salra/AppData/Roaming/npm/ok.cmd stop)",
+      "Bash(mkdir -p /c/bin)",
+      "Bash(cmd //c \"mklink /H C:\\\\bin\\\\sh.exe \\\\\"C:\\\\Program Files\\\\Git\\\\usr\\\\bin\\\\sh.exe\\\\\"\")",
+      "Bash(grep -i \"msys-2.0\\\\|^-.*sh.exe$\")",
+      "Bash(cp \"/c/Program Files/Git/usr/bin/sh.exe\" \"/c/bin/sh.exe\")",
+      "Bash(cp \"/c/Program Files/Git/usr/bin/msys-2.0.dll\" \"/c/bin/msys-2.0.dll\")",
+      "Bash(/c/bin/sh.exe -c \"echo standalone copy works\")",
+      "PowerShell(node -e \"const {spawn}=require\\('child_process'\\); const p=spawn\\('/bin/sh',['-c','echo it_worked_via_slash_bin_sh'],{stdio:'inherit'}\\); p.on\\('error',e=>console.log\\('SPAWN ERROR:',e.message\\)\\); p.on\\('exit',c=>console.log\\('exit code',c\\)\\);\")",
+      "PowerShell(cmd /c mklink /J C:\\\\bin \"C:\\\\Program Files\\\\Git\\\\usr\\\\bin\")",
+      "Bash(node /tmp/test_spawn.js)",
+      "Bash(sed -i 's/setTimeout\\(\\(\\) => p.kill\\(\\), 4000\\);/setTimeout\\(\\(\\) => p.kill\\(\\), 10000\\); p.on\\(\"exit\",\\(c,s\\)=>console.log\\(\"EXIT\",c,s\\)\\);/' /tmp/test_spawn.js)",
+      "Bash(rm -f /tmp/test_spawn.js)"
     ]
   }
 }
