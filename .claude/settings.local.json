@@ -278,7 +278,10 @@
       "Bash(ls -la \"/c/Users/salra/.claude/projects/C--Users-salra-Documents-Claude-Code/memory/\" 2>&1)",
       "Bash(grep -n \"open-knowledge\" -A 3 \"/c/Users/salra/.claude.json\" 2>/dev/null | head -30; echo \"---\"; ls -la \"/c/Users/salra/.claude.json\" 2>&1)",
       "PowerShell(schtasks /query /fo csv | ConvertFrom-Csv | Where-Object { $_.TaskName -match 'OpenKnowledge|ok-|Bun|Vault' })",
-      "Bash(git -C \"/c/Users/salra/Documents/Claude Code\" status)"
+      "Bash(git -C \"/c/Users/salra/Documents/Claude Code\" status)",
+      "Bash(git -C \"/c/Users/salra/Documents/Obsidian Vault\" status --short -- .mcp.json .cursor/mcp.json .codex/config.toml opencode.json)",
+      "Bash(grep -v \"\\\\.log$\")",
+      "Bash(git commit *)"
     ]
   }
 }
