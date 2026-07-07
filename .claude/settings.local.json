@@ -265,7 +265,17 @@
       "PowerShell([Environment]::GetEnvironmentVariable\\(\"BUN_INSTALL\", \"User\"\\))",
       "Bash('C:\\\\Program Files\\\\Git\\\\usr\\\\bin\\\\sh.exe' -l -c ' *)",
       "Bash(timeout 15 \"C:\\\\Program Files\\\\Git\\\\usr\\\\bin\\\\sh.exe\" -l -c 'npx -y @inkeep/open-knowledge@latest mcp')",
-      "Bash(git checkout *)"
+      "Bash(git checkout *)",
+      "Read(//c/Users/salra/.claude/**)",
+      "PowerShell(Get-ScheduledTask | Where-Object { $_.TaskName -match 'ok|OpenKnowledge|Bun' } | Select-Object TaskName, State, TaskPath)",
+      "Bash(cat \"C:/Users/salra/AppData/Local/OpenKnowledge/autostart-vault.vbs\" 2>&1)",
+      "PowerShell(schtasks /query /tn \"OpenKnowledge - Obsidian Vault\" /v /fo list 2>&1)",
+      "Bash(ls -la \"C:/Users/salra/AppData/Local/OpenKnowledge/\" 2>&1; echo \"---startup---\"; ls -la \"C:/Users/salra/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/\" 2>&1)",
+      "PowerShell(Get-Job)",
+      "PowerShell(Receive-Job -Keep 2>&1)",
+      "Bash(cat \"/c/Users/salra/AppData/Roaming/npm/ok.cmd\" | head -20)",
+      "Bash(rm \"C:/Users/salra/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/OpenKnowledge-ObsidianVault.vbs\" && echo \"removed\")",
+      "Bash(ls -la \"/c/Users/salra/.claude/projects/C--Users-salra-Documents-Claude-Code/memory/\" 2>&1)"
     ]
   }
 }
