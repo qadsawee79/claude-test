@@ -306,7 +306,8 @@
       "PowerShell(cmd /c mklink /J C:\\\\bin \"C:\\\\Program Files\\\\Git\\\\usr\\\\bin\")",
       "Bash(node /tmp/test_spawn.js)",
       "Bash(sed -i 's/setTimeout\\(\\(\\) => p.kill\\(\\), 4000\\);/setTimeout\\(\\(\\) => p.kill\\(\\), 10000\\); p.on\\(\"exit\",\\(c,s\\)=>console.log\\(\"EXIT\",c,s\\)\\);/' /tmp/test_spawn.js)",
-      "Bash(rm -f /tmp/test_spawn.js)"
+      "Bash(rm -f /tmp/test_spawn.js)",
+      "mcp__61f9b843-06b7-4eb1-a791-006af5b42752__notion-query-data-sources"
     ]
   }
 }
