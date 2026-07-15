@@ -326,7 +326,8 @@
       "Bash(diff \"/c/Users/salra/Documents/ECC/rules/react/testing.md\" \"/c/Users/salra/.claude/rules/ecc/react/testing.md\" 2>&1 | head -20; echo \"---sizes---\"; wc -c \"/c/Users/salra/Documents/ECC/rules/react/testing.md\" \"/c/Users/salra/.claude/rules/ecc/react/testing.md\")",
       "Bash(cd \"/c/Users/salra\" && ls -la .git 2>&1; echo \"--- any index/logs? ---\"; ls -la .git/logs 2>&1; find .git -name index 2>&1; echo \"--- refs ---\"; find .git/refs -type f 2>&1; cat .git/HEAD 2>&1)",
       "Bash(rm -rf \"/c/Users/salra/.git\" && echo \"removed\"; ls -la \"/c/Users/salra/.git\" 2>&1)",
-      "Bash(node -e \"const p=require\\('./package.json'\\); console.log\\(JSON.stringify\\(p.scripts, null, 2\\)\\)\")"
+      "Bash(node -e \"const p=require\\('./package.json'\\); console.log\\(JSON.stringify\\(p.scripts, null, 2\\)\\)\")",
+      "Bash(npm audit *)"
     ]
   }
 }
