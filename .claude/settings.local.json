@@ -311,7 +311,19 @@
       "PowerShell(claude mcp add --transport http linear-server https://mcp.linear.app/mcp)",
       "PowerShell(claude mcp list)",
       "Bash(awk 'NR>=80 && NR<=220')",
-      "PowerShell(Get-Process | Where-Object { $_.ProcessName -match 'Claude|msiexec|TiWorker|AppXDeploy|WindowsApps|dllhost' } | Select-Object ProcessName, Id, Path | Format-Table -AutoSize)"
+      "PowerShell(Get-Process | Where-Object { $_.ProcessName -match 'Claude|msiexec|TiWorker|AppXDeploy|WindowsApps|dllhost' } | Select-Object ProcessName, Id, Path | Format-Table -AutoSize)",
+      "Bash(ls -la \"/c/Users/salra/Documents/\" 2>&1 | grep -i ecc; echo \"---\"; ls \"/c/Users/salra/Documents/\" 2>&1 | head -30)",
+      "Bash(pwsh -NoProfile -Command \"./install.ps1 --profile core --target claude --dry-run\")",
+      "PowerShell(Set-Location \"C:\\\\Users\\\\salra\\\\Documents\\\\ECC\"; .\\\\install.ps1 --profile core --target claude --dry-run --json 2>&1 | Out-File -FilePath \"$env:TEMP\\\\ecc_plan.json\" -Encoding utf8; \\(Get-Content \"$env:TEMP\\\\ecc_plan.json\" -Raw | ConvertFrom-Json\\).plan.operations | Where-Object { $_.sourceRelativePath -match 'hook|settings' } | Select-Object sourceRelativePath, destinationPath | Format-Table -AutoSize)",
+      "PowerShell($plan = Get-Content \"$env:TEMP\\\\ecc_plan.json\" -Raw | ConvertFrom-Json; $plan.plan.operations | Where-Object { $_.destinationPath -match 'settings\\\\.json' } | Format-Table -AutoSize; Write-Host \"---warnings---\"; $plan.plan.warnings)",
+      "Read(//c/Users/salra/.claude//**)",
+      "Read(//c/Users/salra/.claude/scripts/**)",
+      "Bash(ls \"/c/Users/salra/.claude/skills\" 2>&1 | head -20)",
+      "Bash(node scripts/ecc.js list-installed)",
+      "Bash(node scripts/ecc.js doctor)",
+      "Bash(node scripts/ecc.js doctor --json)",
+      "PowerShell(Set-Location \"C:\\\\Users\\\\salra\\\\Documents\\\\ECC\"; node scripts/ecc.js doctor --json 2>&1 | Out-File -FilePath \"$env:TEMP\\\\ecc_doctor.json\" -Encoding utf8; $d = Get-Content \"$env:TEMP\\\\ecc_doctor.json\" -Raw | ConvertFrom-Json; $d.results[0].issues | ConvertTo-Json -Depth 5)",
+      "Bash(diff \"/c/Users/salra/Documents/ECC/rules/react/testing.md\" \"/c/Users/salra/.claude/rules/ecc/react/testing.md\" 2>&1 | head -20; echo \"---sizes---\"; wc -c \"/c/Users/salra/Documents/ECC/rules/react/testing.md\" \"/c/Users/salra/.claude/rules/ecc/react/testing.md\")"
     ]
   }
 }
