@@ -348,7 +348,21 @@
       "Bash(curl -s https://raw.githubusercontent.com/anthropics/skills/main/skills/web-artifacts-builder/SKILL.md)",
       "Bash(rm -rf \"/c/Users/salra/.claude/skills/gstack\")",
       "Bash(rm -rf \"/c/Users/salra/.gstack\")",
-      "Bash(rm -rf \"/c/Users/salra/AppData/Local/ms-playwright/chromium-1208\")"
+      "Bash(rm -rf \"/c/Users/salra/AppData/Local/ms-playwright/chromium-1208\")",
+      "Bash(curl -s https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/README.md)",
+      "Bash(PLAYWRIGHT_BROWSERS_PATH=\"/c/Users/salra/.claude/skills/gstack/.ms-playwright\" ./setup)",
+      "Bash(curl -s https://raw.githubusercontent.com/vercel-labs/skills/main/README.md)",
+      "Bash(curl -s https://raw.githubusercontent.com/vercel-labs/skills/main/package.json)",
+      "Bash(npm view *)",
+      "Bash(skills --version)",
+      "Bash(skills --help)",
+      "Bash(npm bin *)",
+      "Bash(npm prefix *)",
+      "Bash(npx skills *)",
+      "PowerShell(skills --version)",
+      "Bash(curl -s https://raw.githubusercontent.com/vercel-labs/skills/main/skills/find-skills/SKILL.md)",
+      "Bash(mkdir -p C:/Users/salra/.claude/skills/find-skills)",
+      "Bash(curl -s https://raw.githubusercontent.com/vercel-labs/skills/main/skills/find-skills/SKILL.md -o C:/Users/salra/.claude/skills/find-skills/SKILL.md)"
     ]
   }
 }
