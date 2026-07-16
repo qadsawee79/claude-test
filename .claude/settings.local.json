@@ -362,7 +362,18 @@
       "PowerShell(skills --version)",
       "Bash(curl -s https://raw.githubusercontent.com/vercel-labs/skills/main/skills/find-skills/SKILL.md)",
       "Bash(mkdir -p C:/Users/salra/.claude/skills/find-skills)",
-      "Bash(curl -s https://raw.githubusercontent.com/vercel-labs/skills/main/skills/find-skills/SKILL.md -o C:/Users/salra/.claude/skills/find-skills/SKILL.md)"
+      "Bash(curl -s https://raw.githubusercontent.com/vercel-labs/skills/main/skills/find-skills/SKILL.md -o C:/Users/salra/.claude/skills/find-skills/SKILL.md)",
+      "Bash(taskkill //PID 8052 //F)",
+      "Bash(rm -rf \"/c/Users/salra/.claude/skills/gstack\" && echo \"removed\" *)",
+      "Bash(PLAYWRIGHT_BROWSERS_PATH=\"/c/Users/salra/.claude/skills/gstack/.ms-playwright\" stdbuf -oL -eL ./setup)",
+      "Bash(echo \"SETUP_EXIT_CODE=$?\")",
+      "Bash(taskkill //PID 79056 //F)",
+      "Bash(taskkill //PID 62588 //F)",
+      "Bash(taskkill //PID 50528 //F)",
+      "Bash(taskkill //PID 94716 //F)",
+      "Bash(taskkill //PID 30244 //F)",
+      "Bash(taskkill //PID 75948 //F)",
+      "Bash(taskkill //PID 53396 //F)"
     ]
   }
 }
