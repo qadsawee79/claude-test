@@ -330,7 +330,25 @@
       "Bash(npm audit *)",
       "Bash(bash install.sh)",
       "Bash(python3 \"/c/Users/salra/.claude/skills/banana/scripts/setup_mcp.py\" --key *)",
-      "Bash(python3 \"/c/Users/salra/.claude/skills/banana/scripts/validate_setup.py\")"
+      "Bash(python3 \"/c/Users/salra/.claude/skills/banana/scripts/validate_setup.py\")",
+      "Bash(bun --version)",
+      "Bash(./setup)",
+      "Bash(rm -rf \"/c/Users/salra/AppData/Local/ms-playwright/__dirlock\" && echo \"removed\"; ls \"/c/Users/salra/AppData/Local/ms-playwright/__dirlock\" 2>&1)",
+      "Bash(curl -s https://raw.githubusercontent.com/Dammyjay93/interface-design/main/README.md)",
+      "Bash(mkdir -p C:/Users/salra/.claude/skills)",
+      "Bash(cp -R C:/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/a06a2192-ea7d-4c10-870a-e475a1b7dd62/scratchpad/interface-design/.claude/skills/interface-design C:/Users/salra/.claude/skills/)",
+      "Read(//c/Users/salra/.claude/skills/**)",
+      "Bash(ls \"C:/Users/salra/.claude/skills\" 2>&1)",
+      "Bash(curl -s https://raw.githubusercontent.com/szilu/ux-designer-skill/main/README.md)",
+      "Bash(mkdir -p C:/Users/salra/.claude/skills/ux-designer)",
+      "Bash(cp C:/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/a06a2192-ea7d-4c10-870a-e475a1b7dd62/scratchpad/ux-designer-skill/SKILL.md C:/Users/salra/.claude/skills/ux-designer/)",
+      "Bash(cp -R C:/Users/salra/AppData/Local/Temp/claude/C--Users-salra-Documents-Claude-Code/a06a2192-ea7d-4c10-870a-e475a1b7dd62/scratchpad/ux-designer-skill/references C:/Users/salra/.claude/skills/ux-designer/)",
+      "Bash(./node_modules/.bin/playwright.exe install *)",
+      "Bash(curl -s https://raw.githubusercontent.com/anthropics/skills/main/skills/canvas-design/SKILL.md)",
+      "Bash(curl -s https://raw.githubusercontent.com/anthropics/skills/main/skills/web-artifacts-builder/SKILL.md)",
+      "Bash(rm -rf \"/c/Users/salra/.claude/skills/gstack\")",
+      "Bash(rm -rf \"/c/Users/salra/.gstack\")",
+      "Bash(rm -rf \"/c/Users/salra/AppData/Local/ms-playwright/chromium-1208\")"
     ]
   }
 }
