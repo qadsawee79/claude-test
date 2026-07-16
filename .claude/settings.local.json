@@ -373,7 +373,18 @@
       "Bash(taskkill //PID 94716 //F)",
       "Bash(taskkill //PID 30244 //F)",
       "Bash(taskkill //PID 75948 //F)",
-      "Bash(taskkill //PID 53396 //F)"
+      "Bash(taskkill //PID 53396 //F)",
+      "Bash(powershell -NoProfile -Command \"Get-ItemProperty 'HKCU:\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run' -ErrorAction SilentlyContinue | Format-List; Get-ItemProperty 'HKLM:\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run' -ErrorAction SilentlyContinue | Format-List\")",
+      "Bash(reg query *)",
+      "Bash(schtasks /query /fo LIST /v)",
+      "Bash(cat \"/c/Users/salra/AppData/Roaming/Claude/config.json\" | grep -i \"launch\\\\|startup\\\\|login\\\\|autostart\" -i *)",
+      "Bash(find \"/c/Program Files/WindowsApps/Claude_1.21459.3.0_x64__pzs8sxrjxfjjc\" -maxdepth 1 -iname \"*manifest*\")",
+      "PowerShell(reg query \"HKCU\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\BackgroundAccessApplications\\\\Claude_pzs8sxrjxfjjc\" /s)",
+      "Bash(rm -v \"/c/Users/salra/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/Claude.lnk\")",
+      "Bash(powershell -NoProfile -Command \"Get-AppxPackage *Obsidian* -ErrorAction SilentlyContinue | Select-Object Name, InstallLocation\")",
+      "Read(//c/Users/salra/AppData/Local/**)",
+      "Read(//c/Users/salra/AppData/Local/Programs/Obsidian/**)",
+      "Read(//c/Users/salra/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/**)"
     ]
   }
 }
