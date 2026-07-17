@@ -418,7 +418,8 @@
       "PowerShell(Get-Process -Id 64664,54228)",
       "Bash(taskkill //PID 64664 //F)",
       "Bash(powershell -NoProfile -Command 'Get-Content -Path \\([System.IO.Path]::Combine\\([Environment]::GetFolderPath\\('\\\\''Startup'\\\\''\\), '\\\\''Obsidian Vault Sync Monitor.lnk'\\\\''\\)\\) -ErrorAction SilentlyContinue | Out-Null; $sh = New-Object -ComObject WScript.Shell; $sc = $sh.CreateShortcut\\([System.IO.Path]::Combine\\([Environment]::GetFolderPath\\('\\\\''Startup'\\\\''\\), '\\\\''Obsidian Vault Sync Monitor.lnk'\\\\''\\)\\); Write-Output \"TargetPath: $\\($sc.TargetPath\\)\"; Write-Output \"Arguments: $\\($sc.Arguments\\)\"')",
-      "Bash(ls -la \"/c/Users/salra/Documents/ObsidianVault-SecondBrain-Watch.ffs_real\" 2>&1)"
+      "Bash(ls -la \"/c/Users/salra/Documents/ObsidianVault-SecondBrain-Watch.ffs_real\" 2>&1)",
+      "Bash(ls -la \"/c/Users/salra/AppData/Roaming/FreeFileSync/Logs/\" 2>&1 | tail -20)"
     ]
   }
 }
