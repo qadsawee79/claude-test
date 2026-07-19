@@ -419,7 +419,12 @@
       "Bash(taskkill //PID 64664 //F)",
       "Bash(powershell -NoProfile -Command 'Get-Content -Path \\([System.IO.Path]::Combine\\([Environment]::GetFolderPath\\('\\\\''Startup'\\\\''\\), '\\\\''Obsidian Vault Sync Monitor.lnk'\\\\''\\)\\) -ErrorAction SilentlyContinue | Out-Null; $sh = New-Object -ComObject WScript.Shell; $sc = $sh.CreateShortcut\\([System.IO.Path]::Combine\\([Environment]::GetFolderPath\\('\\\\''Startup'\\\\''\\), '\\\\''Obsidian Vault Sync Monitor.lnk'\\\\''\\)\\); Write-Output \"TargetPath: $\\($sc.TargetPath\\)\"; Write-Output \"Arguments: $\\($sc.Arguments\\)\"')",
       "Bash(ls -la \"/c/Users/salra/Documents/ObsidianVault-SecondBrain-Watch.ffs_real\" 2>&1)",
-      "Bash(ls -la \"/c/Users/salra/AppData/Roaming/FreeFileSync/Logs/\" 2>&1 | tail -20)"
+      "Bash(ls -la \"/c/Users/salra/AppData/Roaming/FreeFileSync/Logs/\" 2>&1 | tail -20)",
+      "Bash(tasklist //FI \"IMAGENAME eq node.exe\")",
+      "Bash(ls -la \"/c/Users/salra/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/\" 2>&1)",
+      "PowerShell(Start-Process -FilePath \"C:\\\\Users\\\\salra\\\\AppData\\\\Roaming\\\\npm\\\\ok.cmd\" -ArgumentList \"start --ui-port 45900\" -WorkingDirectory \"C:\\\\Users\\\\salra\\\\Documents\\\\Obsidian Vault\" -WindowStyle Hidden)",
+      "PowerShell(Start-Process -FilePath \"C:\\\\Users\\\\salra\\\\AppData\\\\Roaming\\\\npm\\\\ok.cmd\" -ArgumentList \"start\" -WorkingDirectory \"C:\\\\Users\\\\salra\\\\Documents\\\\Second Brain\" -WindowStyle Hidden)",
+      "Bash(echo \"=== ok.cmd exists ===\"; ls -la \"/c/Users/salra/AppData/Roaming/npm/ok.cmd\" 2>&1 *)"
     ]
   }
 }
