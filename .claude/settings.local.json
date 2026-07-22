@@ -433,7 +433,9 @@
       "mcp__e5f55faa-b7bd-459a-b6ee-279b8e85f1e5__list_issue_labels",
       "mcp__e5f55faa-b7bd-459a-b6ee-279b8e85f1e5__save_issue",
       "mcp__e5f55faa-b7bd-459a-b6ee-279b8e85f1e5__get_issue",
-      "Bash(rtk git *)"
+      "Bash(rtk git *)",
+      "Bash(gh pr *)",
+      "mcp__e5f55faa-b7bd-459a-b6ee-279b8e85f1e5__list_issues"
     ]
   }
 }
