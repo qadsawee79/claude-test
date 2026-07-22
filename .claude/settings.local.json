@@ -436,7 +436,11 @@
       "Bash(rtk git *)",
       "Bash(gh pr *)",
       "mcp__e5f55faa-b7bd-459a-b6ee-279b8e85f1e5__list_issues",
-      "mcp__e5f55faa-b7bd-459a-b6ee-279b8e85f1e5__save_comment"
+      "mcp__e5f55faa-b7bd-459a-b6ee-279b8e85f1e5__save_comment",
+      "Bash(rtk git commit -m 'docs: add README with Finn-loop section *)",
+      "Bash(gh pr create --title 'docs: add README with Finn-loop section' --body ' *)",
+      "Bash(python -c \"import json; json.load\\(open\\('.claude/settings.local.json'\\)\\)\")",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('.claude/settings.local.json','utf8'\\)\\)\")"
     ]
   }
 }
