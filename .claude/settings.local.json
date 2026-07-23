@@ -441,7 +441,8 @@
       "Bash(gh pr create --title 'docs: add README with Finn-loop section' --body ' *)",
       "Bash(python -c \"import json; json.load\\(open\\('.claude/settings.local.json'\\)\\)\")",
       "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('.claude/settings.local.json','utf8'\\)\\)\")",
-      "Bash(python3 -m json.tool .claude/settings.local.json)"
+      "Bash(python3 -m json.tool .claude/settings.local.json)",
+      "Bash(rtk gh *)"
     ]
   }
 }
